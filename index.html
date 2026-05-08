@@ -1,64 +1,501 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Alberto Medina Porfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Alberto Medina | Data Analytics Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Professional data analytics portfolio for Alberto Medina featuring graduate studies, technical skills, and analytics projects."
+    >
 
-<body>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 
-    <header>
-        <img src="images/project2 image.png" alt="Profile Picture" class="profile-pic">
-        <h1>Alberto Medina</h1>
-        <p>Data Analytics Portfolio</p>
-    </header>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 
-    <section>
-        <h2>About Me</h2>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="colorlib-page">
+      <div class="container-wrap">
+        <a
+          href="#"
+          class="js-colorlib-nav-toggle colorlib-nav-toggle"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-expanded="false"
+          aria-controls="navbar"
+        ><i></i></a>
 
-        <div class="logos">
-            <img src="images/Franklin img.png" alt="Franklin University Logo">
-            <img src="images/OSU img.png" alt="Ohio State University Logo">
+        <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+          <div class="text-center">
+            <div class="author-img" style="background-image: url('images/portfolio picture.png');"></div>
+            <h1 id="colorlib-logo"><a href="index.html">Alberto Medina</a></h1>
+            <span class="position">Data Analytics Graduate Student | Aspiring Data Analyst</span>
+            <p class="sidebar-location">Columbus, Ohio</p>
+          </div>
+
+          <nav id="colorlib-main-menu" role="navigation" class="navbar">
+            <div id="navbar" class="collapse">
+              <ul>
+                <li class="active"><a href="#" data-nav-section="about">About</a></li>
+                <li><a href="#" data-nav-section="skills">Skills</a></li>
+                <li><a href="#" data-nav-section="education">Education</a></li>
+                <li><a href="#" data-nav-section="experience">Background</a></li>
+                <li><a href="#" data-nav-section="work">Projects</a></li>
+                <li><a href="#" data-nav-section="contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="social-buttons">
+            <a href="mailto:a1990alpalo@gmail.com"><i class="icon-gmail"></i></a>
+            <a href="https://github.com/a1990alpalo" target="_blank" rel="noopener noreferrer"><i class="icon-github"></i></a>
+            <a href="https://www.linkedin.com/in/alberto-medina-b65a15a6" target="_blank" rel="noopener noreferrer"><i class="icon-linkedin"></i></a>
+          </div>
+
+          <div class="sidebar-cta">
+            <a class="btn btn-primary btn-outline btn-sm" href="Alberto_Medina_Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+          </div>
+        </aside>
+
+        <div id="colorlib-main">
+          <section class="colorlib-about" data-section="about">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                    <div class="col-md-12">
+                      <div class="about-desc">
+                        <span class="heading-meta">About Me</span>
+                        <h2 class="colorlib-heading">Professional Profile</h2>
+                        <p>
+                          I am a data analytics graduate student with a background in finance, business operations, and customer service.
+                          My work focuses on using data to solve business problems, build dashboards, create visualizations, and develop
+                          machine learning models.
+                        </p>
+                        <p>
+                          I enjoy working with Python, SQL, Tableau, and data storytelling to turn raw data into useful insights.
+                          My goal is to combine technical analysis with business understanding to support better decision-making.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row hero-highlights">
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                      <div class="services color-1">
+                        <span class="icon2"><i class="icon-data"></i></span>
+                        <h3>Analytics Projects</h3>
+                        <p>Applied work in machine learning, dashboarding, and exploratory analysis.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInUp">
+                      <div class="services color-2">
+                        <span class="icon2"><i class="icon-display2"></i></span>
+                        <h3>Data Visualization</h3>
+                        <p>Clear storytelling through dashboards, charts, and interactive visualizations.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 animate-box" data-animate-effect="fadeInRight">
+                      <div class="services color-3">
+                        <span class="icon2"><i class="icon-briefcase3"></i></span>
+                        <h3>Business Context</h3>
+                        <p>Analytics grounded in finance, operations, and customer-facing problem solving.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="colorlib-skills" data-section="skills">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                  <span class="heading-meta">What I Work With</span>
+                  <h2 class="colorlib-heading animate-box">Skills</h2>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                  <div class="skill-block">
+                    <h3>Programming and Data Tools</h3>
+                    <ul class="skill-tag-list">
+                      <li>Python</li>
+                      <li>SQL</li>
+                      <li>Pandas</li>
+                      <li>NumPy</li>
+                      <li>Scikit-learn</li>
+                      <li>Tableau</li>
+                      <li>Excel</li>
+                      <li>PostgreSQL</li>
+                      <li>MongoDB</li>
+                      <li>JavaScript</li>
+                      <li>D3.js</li>
+                      <li>Git and GitHub</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                  <div class="skill-block">
+                    <h3>Analytics Capabilities</h3>
+                    <ul class="skill-tag-list">
+                      <li>Data Cleaning</li>
+                      <li>Exploratory Data Analysis</li>
+                      <li>Machine Learning</li>
+                      <li>Data Visualization</li>
+                      <li>Business Analytics</li>
+                      <li>Dashboard Development</li>
+                      <li>Feature Engineering</li>
+                      <li>Model Evaluation</li>
+                      <li>Data Storytelling</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="colorlib-education" data-section="education">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                  <span class="heading-meta">Academic Background</span>
+                  <h2 class="colorlib-heading animate-box">Education</h2>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                  <div class="fancy-collapse-panel">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Franklin University, Graduate Program in Data Analytics
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="panel-body">
+                            Graduate-level coursework focused on analytics, business problem solving, and practical project development.
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Ohio State Data Analytics Bootcamp
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                          <div class="panel-body">
+                            <p>Technical training in Python, SQL, visualization, and applied analytics workflows.</p>
+                            <p>
+                              <a class="btn btn-primary btn-outline btn-sm" href="images/A%20Medina%20(1).pdf" target="_blank" rel="noopener noreferrer">View Ohio State Certificate</a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Bachelor&apos;s Degree in Finance, Franklin University
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                          <div class="panel-body">
+                            Foundation in finance, business analysis, and quantitative decision-making.
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                          <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Certificate in Supply Chain Management, Ohio University
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                          <div class="panel-body">
+                            <p>Coursework supporting operations awareness, process thinking, and business systems understanding.</p>
+                            <p>
+                              <a class="btn btn-primary btn-outline btn-sm" href="images/Ohio%20University%20certificate%20.png" target="_blank" rel="noopener noreferrer">View Ohio University Certificate</a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <section class="colorlib-experience" data-section="experience">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                  <span class="heading-meta">Professional Background</span>
+                  <h2 class="colorlib-heading animate-box">Experience</h2>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                  <div class="experience-card">
+                    <h3>Finance, Operations, and Customer Support Background</h3>
+                    <p>
+                      My professional experience includes work in financial services, business operations, and customer support environments
+                      where accuracy, communication, and problem resolution were essential. I supported account-related processes, responded
+                      to customer needs, and worked within structured business workflows that required attention to detail and dependable execution.
+                    </p>
+                    <p>
+                      That background now supports my analytics work by helping me frame technical projects around business questions,
+                      process improvement, and practical outcomes. I approach data problems with a focus on clarity, efficiency, and decision support.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="colorlib-work" data-section="work">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                  <span class="heading-meta">Portfolio</span>
+                  <h2 class="colorlib-heading animate-box">Projects</h2>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                  <div class="featured-project-card">
+                    <div class="featured-project-copy">
+                      <span class="featured-label">Featured Capstone</span>
+                      <h3><a href="https://github.com/a1990alpalo/real-estate-capstone-BUSA695.git" target="_blank" rel="noopener noreferrer">BUSA 695 Real Estate Price Prediction Capstone</a></h3>
+                      <p>
+                        Built a machine learning workflow to predict residential real estate prices using a large U.S. real estate dataset.
+                        The project included data cleaning, feature engineering, location-based variables, Random Forest modeling,
+                        Gradient Boosting benchmarking, model evaluation charts, and an interactive Folium map.
+                      </p>
+                      <p class="tool-line">
+                        <strong>Tools:</strong> Python, pandas, NumPy, scikit-learn, matplotlib, Folium, pgeocode, Jupyter Notebook
+                      </p>
+                      <ul class="results-list">
+                        <li>Random Forest log-scale R: 0.6151</li>
+                        <li>Random Forest MAE: about $218,209</li>
+                        <li>Cross-validation mean R: 0.6241</li>
+                        <li>Gradient Boosting benchmark was lower than Random Forest</li>
+                      </ul>
+                      <div class="project-action-row">
+                        <a class="btn btn-primary btn-outline btn-sm" href="https://github.com/a1990alpalo/real-estate-capstone-BUSA695.git" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a class="btn btn-primary btn-outline btn-sm" href="https://github.com/a1990alpalo/real-estate-capstone-BUSA695.git" target="_blank" rel="noopener noreferrer">Project Details</a>
+                        <a class="btn btn-primary btn-outline btn-sm" href="https://a1990alpalo.github.io/real-estate-capstone-BUSA695/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                      </div>
+                    </div>
+
+                    <div class="row capstone-visuals">
+                      <div class="col-md-12">
+                        <figure class="visual-card">
+                          <img src="images/BUSA 695 map.png" alt="Interactive map output from the BUSA 695 capstone" class="img-responsive">
+                          <figcaption>
+                            Geographic map from the capstone highlighting the project&apos;s location-based analysis and how spatial context supported home price prediction.
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="col-md-12">
+                        <figure class="visual-card">
+                          <img src="images/model_performance_comparison.png" alt="Model performance comparison from the BUSA 695 capstone" class="img-responsive">
+                          <figcaption>
+                            Model performance comparison summarizing how the capstone evaluated different prediction approaches and selected the stronger-performing method.
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row other-projects-heading">
+                <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                  <h3 class="section-subheading">Other Projects</h3>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                  <div class="featured-project-card">
+                    <div class="featured-project-copy">
+                      <span class="featured-label">D3 Visualization</span>
+                      <h3><a href="https://github.com/a1990alpalo/d3-bar-chart.git" target="_blank" rel="noopener noreferrer">D3 Beast Mode Chart</a></h3>
+                      <p>
+                        Built an animated D3.js bar chart that reads CSV data, maps values to color and position scales, and adds hover interactions with tooltip feedback.
+                      </p>
+                      <p class="tool-line">
+                        <strong>Tools:</strong> JavaScript, D3.js, HTML, CSS, CSV
+                      </p>
+                      <ul class="results-list">
+                        <li>Loaded structured data from a CSV file and converted values for chart rendering.</li>
+                        <li>Used animated bar transitions to introduce the dataset progressively.</li>
+                        <li>Added tooltips and hover effects to improve chart readability and interaction.</li>
+                      </ul>
+                      <div class="project-action-row">
+                        <a class="btn btn-primary btn-outline btn-sm" href="https://github.com/a1990alpalo/d3-bar-chart.git" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a class="btn btn-primary btn-outline btn-sm" href="https://a1990alpalo.github.io/d3-bar-chart/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 animate-box" data-animate-effect="fadeInRight">
+                  <div class="featured-project-card">
+                    <div class="featured-project-copy">
+                      <span class="featured-label">Interactive Dashboard</span>
+                      <h3><a href="https://github.com/a1990alpalo/belly-button.git" target="_blank" rel="noopener noreferrer">Belly Button Biodiversity Dashboard</a></h3>
+                      <p>
+                        Built an interactive dashboard to explore belly button microbiome data at the sample level using dynamic charts and demographic detail views.
+                      </p>
+                      <p class="tool-line">
+                        <strong>Tools:</strong> JavaScript, D3.js, Plotly, HTML, CSS
+                      </p>
+                      <ul class="results-list">
+                        <li>Created a dashboard view for biodiversity sample exploration.</li>
+                        <li>Used a bubble chart to compare bacterial cultures across samples.</li>
+                        <li>Combined visual storytelling with interactive filtering and metadata display.</li>
+                      </ul>
+                      <div class="project-action-row">
+                        <a class="btn btn-primary btn-outline btn-sm" href="https://github.com/a1990alpalo/belly-button.git" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a class="btn btn-primary btn-outline btn-sm" href="https://a1990alpalo.github.io/belly-button/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                      </div>
+                    </div>
+
+                    <div class="row capstone-visuals">
+                      <div class="col-md-6">
+                        <figure class="visual-card">
+                          <img src="images/Belly Button Biodiversity Dashboard.png" alt="Belly Button Biodiversity Dashboard project screenshot" class="img-responsive">
+                          <figcaption>
+                            Dashboard overview showing the project&apos;s interactive layout for exploring microbiome sample data.
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="col-md-6">
+                        <figure class="visual-card">
+                          <img src="images/bubble chart.png" alt="Bubble chart visualization from the Belly Button Biodiversity Dashboard" class="img-responsive">
+                          <figcaption>
+                            Bubble chart visualization used to compare bacterial cultures and relative sample patterns across observations.
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                  <div class="featured-project-card">
+                    <div class="featured-project-copy">
+                      <span class="featured-label">Machine Learning App</span>
+                      <h3><a href="https://github.com/a1990alpalo/Mortgage-Application-Success-Prediction.git" target="_blank" rel="noopener noreferrer">Mortgage Application Success Prediction</a></h3>
+                      <p>
+                        Built a machine learning application that predicts mortgage approval outcomes through a web interface where users can enter application details and receive a model-driven decision result.
+                      </p>
+                      <p class="tool-line">
+                        <strong>Tools:</strong> Python, Flask, scikit-learn, pandas, NumPy, Joblib, HTML, CSS, Bootstrap
+                      </p>
+                      <ul class="results-list">
+                        <li>Connected a trained model to a Flask app for interactive prediction use.</li>
+                        <li>Added preprocessing support with saved scaler and imputer components.</li>
+                        <li>Created approval and denial result pages to make outputs easier to interpret.</li>
+                      </ul>
+                      <div class="project-action-row">
+                        <a class="btn btn-primary btn-outline btn-sm" href="https://github.com/a1990alpalo/Mortgage-Application-Success-Prediction.git" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a class="btn btn-primary btn-outline btn-sm" href="https://a1990alpalo.github.io/Mortgage-Application-Success-Prediction/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                      </div>
+                    </div>
+
+                    <div class="row capstone-visuals">
+                      <div class="col-md-12">
+                        <figure class="visual-card">
+                          <img src="images/mortgage_index page .png" alt="Mortgage Application Success Prediction app home page" class="img-responsive">
+                          <figcaption>
+                            Landing page view of the mortgage prediction application showing the user-facing interface for entering applicant information and returning model-based results.
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="colorlib-contact" data-section="contact">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                  <span class="heading-meta">Get In Touch</span>
+                  <h2 class="colorlib-heading">Contact</h2>
+                </div>
+              </div>
+
+              <div class="row contact-grid">
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                  <div class="contact-card">
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/a1990alpalo" target="_blank" rel="noopener noreferrer">github.com/a1990alpalo</a></p>
+                  </div>
+                </div>
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                  <div class="contact-card">
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/alberto-medina-b65a15a6" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/alberto-medina-b65a15a6</a></p>
+                  </div>
+                </div>
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                  <div class="contact-card">
+                    <h3>Email</h3>
+                    <p><a href="mailto:a1990alpalo@gmail.com">a1990alpalo@gmail.com</a></p>
+                  </div>
+                </div>
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                  <div class="contact-card">
+                    <h3>Resume</h3>
+                    <p><a href="Alberto_Medina_Resume.pdf" target="_blank" rel="noopener noreferrer">Open resume PDF</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
+      </div>
+    </div>
 
-        <p>
-            I am a Data Analytics graduate student at Franklin University with a strong interest in using data to solve real-world business problems. My background includes experience in financial services, where I supported retirement and life insurance accounts while developing strong analytical and problem-solving skills.
-            <br><br>
-            Currently, I am focused on building technical expertise in Python, SQL, and data visualization tools to analyze large datasets and generate actionable insights. My capstone project involves working with a large real estate dataset to predict housing prices using machine learning models such as Random Forest. Through this work, I have developed skills in data cleaning, exploratory data analysis (EDA), feature engineering, and model evaluation.
-            <br><br>
-            I am particularly interested in roles related to data analytics and business intelligence, where I can combine technical skills with business understanding to support decision-making and drive value for organizations.
-        </p>
-    </section>
-
-    <section>
-        <h2>Capstone Story</h2>
-
-        <h3>Problem</h3>
-        <p>Predict housing prices using a large real estate dataset to support better decision-making.</p>
-
-        <h3>Data Journey</h3>
-        <p>Dataset contained over 2 million rows with missing values and outliers. Required cleaning, transformation, and encoding.</p>
-
-        <h3>Solution</h3>
-        <p>Used Python, performed EDA, applied median imputation, and built a Random Forest model with an R² of approximately 0.30.</p>
-
-        <h3>Impact</h3>
-        <p>Identified how data quality affects predictions and proposed improvements such as feature engineering and better imputation.</p>
-    </section>
-
-    <section>
-        <h2>Technical & Visual Artifacts</h2>
-
-        <h3>Random Forest Model</h3>
-        <img src="images/Random Forest output.png" alt="Random Forest Output">
-        <p>This shows the performance of the Random Forest model used to predict housing prices.</p>
-
-        <h3>EDA Analysis</h3>
-        <img src="images/EDA output .png" alt="EDA Output">
-        <p>This shows the exploratory data analysis process including missing values and summary statistics.</p>
-
-    </section>
-
-</body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
